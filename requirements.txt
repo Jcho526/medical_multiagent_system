@@ -1,0 +1,19 @@
+# Core
+python-dotenv>=1.0.0
+
+# RAG / Vector Store
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+
+# LLM (choose one, abstracted via config)
+openai>=1.12.0
+langchain>=0.1.0
+langchain-openai>=0.0.5
+
+# API
+fastapi>=0.109.0
+uvicorn>=0.27.0
+pydantic>=2.5.0
+
+# Output
+reportlab>=4.1.0
